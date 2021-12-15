@@ -27,7 +27,7 @@
 }
 
 .brandLogo img {
-  height: 65px;
+  height: auto;
   width: 100%;
 }
 
@@ -97,5 +97,9 @@
 @media screen and (min-width: 800px) {
   .introModal .novenaImage img {
     height: 100px;
+  }
+  .brandLogo img {
+    height: 65px;
+    width: 100%;
   }
 }
