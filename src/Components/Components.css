@@ -21,6 +21,10 @@
   to {transform: none;}
 }
 
+.brandZone .brandLogo{
+  margin: 0 20px;
+}
+
 .brandLogo {
   text-align: center;
   margin: 30px 20px 0 20px;
@@ -32,8 +36,9 @@
   width: 100%;
 }
 
-.brandZone .brandLogo {
+.logosTry {
   margin: 0 20px;
+  text-align: center;
 }
 
 .slide p {
@@ -106,5 +111,15 @@
   .brandLogo img {
     height: 65px;
     width: 100%;
+  }
+  .logosTry {
+    margin: 20px 0;
+  }
+  .logosTry img {
+    height: auto;
+    width: 30%;
+  }
+  .mainMenu .menuOption img {
+    width: 100px;
   }
 }

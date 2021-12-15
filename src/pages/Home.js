@@ -10,7 +10,9 @@ const Home = () => {
       <div className='brandZone'>
         <BrandLogo src={onOff} />
         <BrandLogo src={MainTitle} />
-        <BrandLogo src={logosTry} />
+        <div className='logosTry'>
+          <img src={logosTry} alt="logos try" />
+        </div>
       </div>
       {/* <p className='instructive'>Sigue cada paso  y reza en familia</p> */}
       <div className='mainMenu'>
