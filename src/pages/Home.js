@@ -1,15 +1,18 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 import './Pages.css';
-import { one, two, three, four, five, six, seven, MainTitle, onOff } from '../assets';
+import { one, two, three, four, five, six, seven, MainTitle, onOff, logosTry } from '../assets';
 import BrandLogo from '../Components/BrandLogo';
 
 const Home = () => {
   return (
     <>
-      <BrandLogo src={onOff} />
-      <BrandLogo src={MainTitle} />
-      <p className='instructive'>Sigue cada paso  y reza en familia</p>
+      <div className='brandZone'>
+        <BrandLogo src={onOff} />
+        <BrandLogo src={MainTitle} />
+        <BrandLogo src={logosTry} />
+      </div>
+      {/* <p className='instructive'>Sigue cada paso  y reza en familia</p> */}
       <div className='mainMenu'>
         <Link to='/stepone' className='menuOption'>
           <img src={one} alt="step one" />

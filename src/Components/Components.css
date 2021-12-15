@@ -1,5 +1,5 @@
 .header {
-  background-image: url('../assets/components/header_full.jpg');
+  background-image: url('../assets/components/header_full_onoff.jpg');
   height: 60px;
   width: 100%;
   background-repeat: no-repeat;
@@ -24,11 +24,16 @@
 .brandLogo {
   text-align: center;
   margin: 30px 20px 0 20px;
+  /* height: 90px; */
 }
 
 .brandLogo img {
   height: 100px;
   width: 100%;
+}
+
+.brandZone .brandLogo {
+  margin: 0 20px;
 }
 
 .slide p {
