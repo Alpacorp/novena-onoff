@@ -24,7 +24,6 @@ import daynine from "./days/24.svg";
 import beforeIcon from "./components/before.svg";
 import afterIcon from "./components/after.svg";
 import decorUp from "./components/decoracion_arriba.svg";
-import decorDown from "./components/decoracion_abajo.svg";
 import mainFamily from "./components/navidad_belen.svg";
 import novenaIntro from "./components/novena_aguinaldo.svg";
 import footer from "./components/decoracion_abajo.svg";
@@ -56,7 +55,6 @@ export {
   beforeIcon,
   afterIcon,
   decorUp,
-  decorDown,
   mainFamily,
   novenaIntro,
   footer,

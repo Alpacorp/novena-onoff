@@ -11,6 +11,6 @@
 }
 
 body {
-  background-image: paint(bubbles);
   background: #FCF5EF;
+  background-image: paint(bubbles);
 }

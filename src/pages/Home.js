@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-import "./Pages.css";
+
 import {
   one,
   two,
@@ -13,8 +13,11 @@ import {
   onOff,
   logosTry2,
 } from "../assets";
+
 import BrandLogo from "../Components/BrandLogo";
 import Header from "../Components/Header";
+
+import "./Pages.css";
 
 const Home = () => {
   return (

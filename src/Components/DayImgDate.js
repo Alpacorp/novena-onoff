@@ -1,19 +1,17 @@
-import * as React from 'react';
-import PropTypes from 'prop-types';
+import * as React from "react";
+import PropTypes from "prop-types";
 
-const DayImgDate = (image) => {
+const DayImgDate = ({ image, textImage }) => {
   return (
-    <>
-      <div className='dayImg'>
-        <img src={image.image} alt={image.textImage} />
-      </div>
-    </>
-  )
+    <div className="dayImg">
+      <img src={image} alt={textImage} />
+    </div>
+  );
 };
 
 DayImgDate.propTypes = {
   image: PropTypes.string.isRequired,
-  textImage: PropTypes.string.isRequired
-}
+  textImage: PropTypes.string.isRequired,
+};
 
 export default DayImgDate;

@@ -1,25 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import Footer from '../Components/Footer';
-import Intro from '../Components/Intro';
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+
+import Footer from "../Components/Footer";
+import Intro from "../Components/Intro";
 
 const Layout = ({ children }) => {
-
   const [showIntro, setShowIntro] = useState(true);
 
   useEffect(() => {
-    setShowIntro(true)
+    setShowIntro(true);
     setTimeout(() => {
-      setShowIntro(false)
+      setShowIntro(false);
     }, 2000);
   }, []);
 
   return (
     <>
-      {showIntro ? <Intro /> : ''}
+      {showIntro ? <Intro /> : ""}
       {children}
       <Footer />
     </>
-  )
+  );
+};
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

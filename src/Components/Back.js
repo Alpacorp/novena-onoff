@@ -1,20 +1,18 @@
-import * as React from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import * as React from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
-const Back = (url) => {
+const Back = ({ url, src }) => {
   return (
-    <>
-      <Link to={url.url}>
-        <img src={url.src} alt="volver" className='back' />
-      </Link>
-    </>
-  )
+    <Link to={url}>
+      <img src={src} alt="volver" className="back" />
+    </Link>
+  );
 };
 
 Back.propTypes = {
   url: PropTypes.string.isRequired,
-  src: PropTypes.string.isRequired
+  src: PropTypes.string.isRequired,
 };
 
 export default Back;

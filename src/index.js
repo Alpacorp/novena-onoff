@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import Container from './Containers/Container';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+
+import Container from "./Containers/Container";
+
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,5 +12,5 @@ ReactDOM.render(
       <Container />
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
